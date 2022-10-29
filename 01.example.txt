@@ -1,0 +1,3 @@
+GHIKLM
+
+GH->L,I->M,L->K,HM->G,GK->I,H->L

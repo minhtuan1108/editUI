@@ -1,0 +1,40 @@
+*{
+	margin: 5px;
+	box-sizing: border-box;
+}
+
+table {
+	margin: auto;
+	text-align: center;
+	border: 1px solid black;
+}
+
+body{
+	display: flex;
+	flex-direction: row;
+	justify-content:space-around;
+}
+
+.top-container{
+	width: fit-content;
+	height: fit-content;
+	background: linear-gradient(0, rgb(11, 18, 229) 0%, rgb(18, 178, 241) 40%, rgb(203, 229, 4) 100%);
+}
+
+.select-container, .result-container{
+	margin-left: 0;
+}
+
+button {
+	border-radius: 10px;
+	border: 1px solid black;
+}
+
+button:hover{
+	border: 2px solid black;
+	background-color: aqua;
+}
+
+.bottom-container{
+	width: fit-content;
+}

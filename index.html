@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>PTTK - Giải bài tập môn Phân tích thiết kế</title>
+	<link rel="stylesheet" href="style.css">
+	<script src="main.js"></script>
+</head>
+<body>
+
+	<div class="top-container">
+		<h1>Tìm bao đóng và khóa</h1>
+		<input type="file" onchange="previewFile()" class="file" />
+		<div class="select-container">
+			<button id="btnCalculate">Tìm tất cả khóa</button>
+				<select name="" id="kieuTim">
+					<option value="lapBang">Lập bảng</option>
+					<option value="thayNam">Tìm tất cả khóa</option>
+					<option value="deQuy">Đệ quy</option>
+				</select>
+		</div>
+		<div class="result-container">
+			<label for="result">Kết quả</label>
+			<input type="text" id="txKetQua">
+		</div>
+		<input type="checkbox" id="chbHienCachLam" checked> Hiện chi tiết cách làm <br>
+		<button id="btnXoaLogger">Xóa cách làm</button>
+	</div>
+
+	<div class="bottom-container">
+		<div id="loggerDiv"></div>
+	</div>
+	
+</body>
+</html>
